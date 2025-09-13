@@ -1,0 +1,4 @@
+date,type,direction,amount,currency,client_code
+2025-06-10,salary_in,in,420000,KZT,1
+2025-06-15,atm_withdrawal,out,40000,KZT,1
+2025-06-20,fx_buy,out,300,USD,2
