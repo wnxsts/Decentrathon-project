@@ -4,7 +4,7 @@ from .config import MONTHS_IN
 
 # Заглушка конвертации: можно расширить реальными курсами при наличии
 def to_kzt(amount: float, currency: str) -> float:
-    rates = {"KZT": 1.0, "USD": 470.0, "EUR": 510.0}  # при необходимости откорректируйте
+    rates = {"KZT": 1.0, "USD": 470.0, "EUR": 510.0}  
     return float(amount) * rates.get(currency, 1.0)
 
 def month_name_in_ru(dt_str: str) -> str:
