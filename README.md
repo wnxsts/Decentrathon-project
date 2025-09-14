@@ -5,7 +5,7 @@
 
 ## Структура
 ```
-personalized_marketing_project/
+Decentrathon-project/
 ├─ data/
 │  ├─ clients.csv                 # вход: клиенты
 │  ├─ transactions.csv            # вход: транзакции (3 мес)
